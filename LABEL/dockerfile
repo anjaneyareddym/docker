@@ -1,4 +1,4 @@
 FROM almalinux:9
-LABEL author ="anjaneya"\
-      version= "1.0" \
-      description = "Practicing docker file reference"
+LABEL author="anjaneya"\
+      version="1.0" \
+      description="Practicing docker file reference"
