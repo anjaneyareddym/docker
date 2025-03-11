@@ -1,4 +1,4 @@
 FROM almalinux:9
 RUN useradd anjaneya
-USER expense
+USER anjaneya
 CMD ["sleep", "100"]
