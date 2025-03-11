@@ -1,0 +1,7 @@
+ARG version
+FROM almalinux:${version:-9}
+ARG  Author="anjaneya"
+ARG  version="1.0" 
+ARG description="Practicing docker file reference"
+RUN echo " author :$Author : version:$version "
+CMD ["sleep","100"]
