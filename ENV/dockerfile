@@ -1,0 +1,4 @@
+FROM almalinux:9
+ENV  Author="anjaneya"
+ENV  version="1.0" 
+ENV description="Practicing docker file reference"
